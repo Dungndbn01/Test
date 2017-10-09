@@ -1,0 +1,6 @@
+framework module Pods_wheelUITests {
+  umbrella header "Pods-wheelUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

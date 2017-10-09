@@ -1,0 +1,6 @@
+framework module Pods_wheel {
+  umbrella header "Pods-wheel-umbrella.h"
+
+  export *
+  module * { export * }
+}
