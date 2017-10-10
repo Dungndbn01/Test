@@ -145,7 +145,7 @@ CHÚC CÁC BẠN CHƠI GAME VUI VẺ!</string>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="60"/>
                                 <state key="normal" title="OK"/>
                                 <connections>
-                                    <segue destination="BPK-W7-1zw" kind="show" id="wlN-2l-GzP"/>
+                                    <action selector="tapOK:" destination="hyd-lN-Gmc" eventType="touchUpInside" id="1Ds-K9-Yah"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -591,7 +591,6 @@ CHÚC CÁC BẠN CHƠI GAME VUI VẺ!</string>
         <image name="triangle-512" width="170" height="170"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="9B3-PC-dNo"/>
-        <segue reference="ahr-Kd-IQh"/>
+        <segue reference="wL4-gV-Q1G"/>
     </inferredMetricsTieBreakers>
 </document>
