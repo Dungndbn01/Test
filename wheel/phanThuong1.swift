@@ -204,22 +204,22 @@ class phanThuong1: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
             if dem == 3 {
                 spin_txt.text = "Tuyệt vời! Bạn đã dành được Jackspot. Bạn được cộng 3000 điểm"
                 if (loadInteger9 % 2) == 0 {
+                    loadInteger3 += 3000 }
+                else {
+                    loadInteger4 += 3000 }
+        }
+            if dem == 2 { spin_txt.text = "Chúc mừng bạn đã  dành được giải nhất. Bạn được cộng 2000 điểm"
+            if (loadInteger9 % 2) == 0 {
                     loadInteger3 += 2000 }
                 else {
                     loadInteger4 += 2000 }
         }
-            if dem == 2 { spin_txt.text = "Chúc mừng bạn đã  dành được giải nhất. Bạn được cộng 2000 điểm"
-            if (loadInteger9 % 2) == 0 {
-                    loadInteger3 += 1000 }
-                else {
-                    loadInteger4 += 1000 }
-        }
             if dem == 1 {
                 spin_txt.text = "Chúc mừng bạn đã dành được giải khuyến khích. Bạn được cộng 1000 điểm"
                 if (loadInteger9 % 2) == 0 {
-                    loadInteger3 += 500 }
+                    loadInteger3 += 1000 }
                 else {
-                    loadInteger4 += 500 }
+                    loadInteger4 += 1000 }
         }
             if dem == 0 { spin_txt.text = "Rất tiếc. Bạn chỉ được giải rút. Bạn không được cộng điểm nào" }
             
@@ -236,7 +236,6 @@ class phanThuong1: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
         self.runTimer1()
         self.runTimer2()
         self.runTimer3()
-        self.hauxuly()
         
         spin_btn.isEnabled = false
         quay_jackpot.isEnabled = false
