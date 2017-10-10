@@ -406,11 +406,11 @@ class ViewController: UIViewController {
         self.view.makeToast("Bạn vừa chọn chiếc hộp kì diệu. Lưu ý: Bạn chỉ được chọn tối đa 3 lần", duration: 2.5, position: .top)
         if (bien_dem % 2) == 0 { bien_demA += 1
             UserDefaults().set(bien_demA, forKey: "bien_demA")
-            //  self.test_btn.isEnabled = false
+              self.test_btn.isEnabled = false
         }
         if (bien_dem % 2) == 1 { bien_demB += 1
             UserDefaults().set(bien_demB, forKey: "bien_demB")
-            //  self.test_btn.isEnabled = false
+              self.test_btn.isEnabled = false
         }
         lucky_turn()
 
